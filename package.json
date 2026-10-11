@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server.js"
+    "test": "node test/test-api.js",
+    "start": "node src/server.js",
+    "test:ci": "node test/test-ci-extra.js"
   },
   "repository": {
     "type": "git",

@@ -55,8 +55,10 @@ jobs:
           done
           cat server.log
           exit 1
-        -name : Test API Extra 
-        -run : bash tes/health.sh
+
+          
+        - name : Test API Extra 
+        - run : bash test/health.sh
 
         
       - name: Test CREATE Product

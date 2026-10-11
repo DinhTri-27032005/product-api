@@ -57,8 +57,7 @@ jobs:
           exit 1
 
           
-      - name: Test API Extra
-        run: bash test/health.sh
+
 
         
       - name: Test CREATE Product

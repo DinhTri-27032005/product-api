@@ -58,6 +58,7 @@ jobs:
 
       - name: Test API extraa
         run: bash test/health.sh
+
         
       - name: Test CREATE Product
         run: |

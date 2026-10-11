@@ -1,1 +1,1 @@
-curl -f localhost:3000/health
+crul -f localhost:3000/health

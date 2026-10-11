@@ -55,8 +55,10 @@ jobs:
           done
           cat server.log
           exit 1
-        -name : Test Api extra 
-        -run: bash test/health.sh
+        -name : Test API Extra 
+        -run : bash tes/health.sh
+
+        
       - name: Test CREATE Product
         run: |
           curl --fail -X POST http://localhost:3000/api/products \

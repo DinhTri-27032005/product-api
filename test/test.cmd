@@ -1,0 +1,1 @@
+curl exe -f localhost:3000/health
